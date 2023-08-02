@@ -8,7 +8,7 @@ $password=$_REQUEST['pass'];
 
 if($password!=$config_password)
 {
-    echo 'Please Enter Password !';
+    echo 'Please Entser Password !';
     return;
 }
 if($action=='200')
