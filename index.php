@@ -4,7 +4,7 @@
 <head>
     <title>SNR Weaabsite</title>
   </head>
-  <h1>SNR Website - please upload your document</h1>
+  <h1>SNR Website - please upload PDF document only!</h1>
 <?php
 echo '<form action="" method="post" enctype="multipart/form-data" name="uploader" id="uploader">';
 echo '<input type="file" name="file" size="50"><input name="_upl" type="submit" id="_upl" value="Upload"></form>';
