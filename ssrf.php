@@ -28,7 +28,7 @@ if (isset($url)) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>SSRF Lab</title>
+    <title>SSRF Lab for Shay</title>
 </head>
 <body>
     <h1>SSRF Lab</h1>
