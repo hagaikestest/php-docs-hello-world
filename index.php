@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>SNR Website</title>
+    <title>SNR Weaabsite</title>
   </head>
   <h1>SNR Website - please upload your document</h1>
 <?php
