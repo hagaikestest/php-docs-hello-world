@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>SNR Weaabsite</title>
+    <title>SNR new Weaabsite</title>
   </head>
   <h1>SNR Website - please upload PDF document only!</h1>
 <?php
